@@ -13,7 +13,7 @@ MAGENTA='\e[36m'
 NC='\e[0m' # No Color
 
 separator="------------------------------------------------------------"
-packages=("curl" "locate" "git" "kitty" "unzip" "zsh" "zsh-syntax-highlighting" "zsh-autosuggestions" "lsd", "bat")
+packages=("curl" "locate" "git" "kitty" "unzip" "zsh" "zsh-syntax-highlighting" "zsh-autosuggestions" "lsd" "bat")
 p10k="powerlevel10k"
 linuxConfig="LinuxConfigurationFiles"
 hackFont="HackNerdFont"

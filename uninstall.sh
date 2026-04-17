@@ -5,7 +5,7 @@
 #             including Powerlevel10k, Hack Nerd Fonts, and various dependencies.
 # mail: juanjose.solorzano.c@gmail.com
 
-packages=("kitty" "zsh" "zsh-syntax-highlighting" "zsh-common" "zsh-autosuggestions" "lsd")
+packages=("kitty" "zsh" "zsh-syntax-highlighting" "zsh-common" "zsh-autosuggestions" "lsd" "bat")
 
 for package in "${packages[@]}"; do
     if dpkg -s "$package" &>/dev/null; then

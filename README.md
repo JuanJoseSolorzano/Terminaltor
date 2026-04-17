@@ -38,10 +38,8 @@
 ## Installation
 
 ```bash
-git clone https://github.com/JuanJoseSolorzano/LinuxConfigurationFiles.git
-cd LinuxConfigurationFiles/terminalInstaller
-chmod +x installer.sh
-./installer.sh
+git clone --depth=1 https://github.com/JuanJoseSolorzano/Terminaltor.git ~/Terminaltor && chmod +x ~/Terminaltor/installer.sh && ~/Terminaltor/installer.sh && rm -rf ~/Terminaltor
+
 ```
 
 The script will:
